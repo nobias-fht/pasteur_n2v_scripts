@@ -1,5 +1,5 @@
 from pathlib import Path
-from portfolio import Portfolio
+from microscopy_portfolio import Portfolio
 
 # data path
 data_path = Path("data")
