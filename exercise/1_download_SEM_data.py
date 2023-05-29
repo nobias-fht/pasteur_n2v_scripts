@@ -2,7 +2,8 @@ from pathlib import Path
 from microscopy_portfolio import Portfolio
 
 # data path
-data_path = Path("data")
+root = Path(__file__).parent
+data_path = root / "data"
 
 # download data
 portfolio = Portfolio()
